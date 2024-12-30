@@ -1,0 +1,25 @@
+.card-img-top {
+    max-height: 200px;
+    object-fit: contain;
+}
+.card-body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-image-container {
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-image-container img {
+   
+    object-fit: contain;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
